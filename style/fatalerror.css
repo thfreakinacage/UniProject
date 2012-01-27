@@ -1,0 +1,32 @@
+body{margin: 0; padding: 0;}
+#outer{text-align: center;}
+#inner{
+	width: 600px;
+	margin: 50px auto;
+	text-align: left;
+	border: 2px solid #000;
+	box-shadow: 5px 5px 10px #333;
+	-moz-box-shadow: 5px 5px 10px #333;
+	-webkit-box-shadow: 5px 5px 10px #333;
+}
+#content{
+	vertical-align: middle;
+}
+#img{
+	padding: 5px; 
+	border-right: 2px solid #000; 
+	float: left;
+	width: 50%;
+}
+#message{
+	float: left;
+	width: 47%;
+	vertical-align: middle;
+	height: 100%;
+	padding-left: 2px;
+}
+.msg:before{content: "\"";}
+.msg:after{content: "\"";}
+.clear{clear: both;}
+.msg{color: red; font-style: italic; margin: 5px 0;}
+.title{font-size: 32px; font-weight: bold;}

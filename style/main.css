@@ -1,0 +1,82 @@
+body{margin: 0; padding: 0; font-family: Verdana, Geneva, sans-serif; background-color: #0AC;}
+#wrapper{
+	width:100%;
+	text-align: center;
+}
+#header{
+	padding: 10px 0 5px 0;
+	background-color: #CCC;
+}
+#navigation{
+	background-color: #F60;
+	border-bottom: 2px solid #000;
+	border-top: 2px solid #000;
+}
+#login{
+	float: right;
+}
+#mydash{
+	width: 150px !important;
+	height: 13px !important;
+}
+#main{
+	background-color: #0AC;
+}
+.paper{
+	background-color: #FFF;
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px solid #000;
+}
+#footer{
+}
+.inner{
+	margin: 0 auto;
+	width: 850px;
+	text-align: left;
+}
+
+/*Navigation styling*/
+ul#navlist{
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 0;
+}
+ul#navlist li{
+	display: inline;
+	padding: 0 5px;
+}
+ul#navlist li a, 
+ul#navlist li a:link, 
+ul#navlist li a:active, 
+ul#navlist li a:visited{
+	color:#FFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px;
+	text-shadow:1px 1px 3px #333333
+}
+ul#navlist li a:hover{
+	background-color: #F90;
+}
+
+
+/*Generic reuseable classes*/
+.error{color: #F00;}
+.success{color: #0F0;}
+.warning{color: #00F;}
+.floatL{float: left;}
+.floatR{float: right;}
+.clearL{clear: left;}
+.clearR{clear: right;}
+.clearB{clear: both;}
+.alignL{text-align: left;}
+.alignR{text-align: right;}
+.alignC{text-align: center;}
+.alignJ{text-align: justify;}
+.bold{font-weight: bold;}
+.italic{font-style: italic;}
+.underline{text-decoration: underline;}
+.strike{text-decoration: line-through;
